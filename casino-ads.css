@@ -1,0 +1,96 @@
+.casino-ads {
+    border-radius: 5px;
+    padding:1.25rem;;
+    margin: 0 15px 30px;
+    background-color: #151e50;
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 15%);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.casino-ads-item-logo, .casino-ads-item-title, .casino-ads-item-button {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.casino-ads-item-button{
+    justify-content: end;
+}
+.casino-ads-item-logo-item-logo-ins {
+    line-height: 0;
+    display: flex;
+    align-items: center;
+}
+.casino-ads-item-logo img{
+    height: 50px !important;
+    width: 50px !important;
+    object-fit: contain;
+}
+.casino-ads-item-title-ins .item-title{
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+}
+.casino-ads-item-title .casino-ads-item-title-ins{
+        padding-left: 20px;
+    }
+.casino-ads-item-title-ins .simple_link{
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+}
+.casino-ads-item-button .ads_link{    
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #2ecc71;
+    box-shadow: 0px 0px 15px 0px rgb(21 21 21);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.casino-ads-item-button .ads_link:hover{
+    box-shadow: 0px 0px 15px 0px rgb(46 204 113 / 55%);
+    }
+.box-9{
+    width:9%;
+}
+.box-25{
+    width: 25%;
+}
+.box-66{
+    width: 66%;
+}
+@media(max-width: 500px){
+    
+    .casino-ads-item-logo{
+        width: auto;
+    }
+    .casino-ads-item-title{
+        width: 80%;
+    }
+    .casino-ads-item-button{
+        padding-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+}
